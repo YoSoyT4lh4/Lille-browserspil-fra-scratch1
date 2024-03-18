@@ -1,0 +1,54 @@
+/* Styler body-elementet */
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #04080F; /* Mørk blå baggrundsfarve som nattens himmel */
+    font-family: 'Arial', sans-serif;
+    color: #ffffff; /* Hvid tekstfarve */
+}
+
+/* Styler game-container-elementet */
+#game-container {
+    position: relative;
+}
+
+/* Styler gui-container-elementet */
+#gui-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Styler score-container-elementet */
+#score-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+/* Styler knapper */
+button {
+    background-color: #2980b9; /* Mørkere blå knapfarve */
+    color: #fff; /* Hvid tekstfarve */
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+}
+
+/* Ændrer knappens farve ved hover */
+button:hover {
+    background-color: #3498db; /* Lysere blå farve ved hover */
+}
+
+/* Styler canvas-elementet */
+canvas {
+    border: 5px solid #2ecc71; /* Lysegrøn ramme omkring bordet */
+    border-radius: 10px;
+}
